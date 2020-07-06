@@ -1,0 +1,559 @@
+/*We use this .css file only for edit mode and code is used from frankfurtschool style.css file*/
+
+.homePageSliderSearch_dropdown .displayNode,
+.displayNode{
+    display: none!important;
+}
+
+.edit-mode.hide-for-language #header {
+    position: static;
+}
+
+.edit-mode .header-site.-is-scrolled,
+.edit-mode .sticky-call-out-wrapper.-is-sticky {
+    position: relative;
+}
+
+
+.edit-mode.hide-for-language::before {
+    background-color: #FFFFFF;
+    color: #D84826;
+    content: 'This page is not available in this language. Please activate this language in page properties to start editing.';
+    font-family: 'Frutiger 57';
+    font-size: 22px;
+    font-weight: normal;
+    left: 0;
+    line-height: 22px;
+    padding: 40px 100px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 11;
+}
+
+.edit-mode.hide-for-language > div {
+    opacity: 0.3;
+    pointer-events: none;
+}
+
+.edit-mode .hide-for-language:hover::before {
+    color: #D84826;
+    content: 'Content is disabled for currently selected language';
+    font-family: 'Frutiger 57';
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 25px;
+    position: absolute;
+    z-index: 70000;
+}
+
+.edit-mode .hide-for-language > div,
+.edit-mode .hide-for-language > section {
+    opacity: 0.3;
+}
+
+
+.edit-mode .hide-for-language > .mgnlEditorBar {
+    opacity: 1;
+}
+
+.edit-mode .component-anchor {
+    background-color: #E1E8CC;
+    color: #6A9000;
+    font-family: monospace;
+    font-size: 13px;
+    margin-top: 30px;
+}
+
+.edit-mode .two-column-content {
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+}
+
+.edit-mode .-edit-mode-hidden {
+    opacity: 0.5;
+}
+div#homePage_signUp h2{
+    display: block;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #31417a;
+}
+div.mc-field-group{
+    display: inline-block;
+}
+
+div.mc-field-group > label{
+    display: none;
+
+}
+div.indicates-required{
+    display: none;
+}
+div.mc-field-group > input{
+    display: inline-block;
+    width: 325px;
+    padding-left: 25px;
+    font-size: 18px;
+    vertical-align: top;
+    height: 40px;
+    border: 1px solid #888;
+}
+div.mc-field-group > div.clear{
+    display: inline-block;
+}
+div.mc-field-group > div.clear input{
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px 0;
+    font-size: 20px;
+    color: #fff;
+    font-family: "Helvetica Regular",sans-serif;
+    background-color: #79a342;
+    width: 100px;
+    text-align: center;
+    vertical-align: top;
+    margin-left: 15px;
+    border: 0;
+    line-height: 20px;
+}
+@media screen and (min-width:478px) and (max-width:766px){
+    div.mc-field-group > input{
+        width: 320px;
+    }
+    div#mce-success-response.response{
+        width: 462px;
+    }
+    div#mce-error-response.response{
+        width: 462px;
+    }
+    div#mc_embed_signup div.mce_inline_error{
+        width: 462px;
+    }
+}
+@media screen and (max-width: 478px) and (min-width: 350px){
+    div.mc-field-group > input{
+        display: inline-block;
+        width: 205px;
+        padding-left: 5px;
+        font-size: 16px;
+        vertical-align: top;
+        height: 34px;
+        border: 1px solid #888;
+    }
+    div.mc-field-group > div.clear input{
+        display: inline-block;
+        text-decoration: none;
+        padding: 10px 0;
+        font-size: 18px;
+        color: #fff;
+        font-family: "Helvetica Regular",sans-serif;
+        background-color: #79a342;
+        width: 100px;
+        text-align: center;
+        vertical-align: top;
+        margin-left: 0;
+        height: 38px;
+        line-height: 18px;
+    }
+    div#homePage_signUp h2{
+        display: block;
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 30px;
+        color: #31417a;
+    }
+    div#mce-success-response.response{
+        width: 312px;
+    }
+    div#mce-error-response.response{
+        width: 312px;
+    }
+    div#mc_embed_signup div.mce_inline_error{
+        width: 312px;
+    }
+}
+@media screen and (max-width: 350px){
+    div.mc-field-group > input{
+        display: inline-block;
+        width: 205px;
+        padding-left: 5px;
+        font-size: 16px;
+        vertical-align: top;
+        height: 34px;
+        border: 1px solid #888;
+    }
+    div.mc-field-group > div.clear input{
+        display: inline-block;
+        text-decoration: none;
+        padding: 10px 0;
+        font-size: 18px;
+        color: #fff;
+        font-family: "Helvetica Regular",sans-serif;
+        background-color: #79a342;
+        width: 100px;
+        text-align: center;
+        vertical-align: top;
+        line-height: 18px;
+        margin-left: 0;
+    }
+    div#homePage_signUp h2{
+        display: block;
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 30px;
+        color: #31417a;
+    }
+    div#mce-success-response.response{
+        width: 305px;
+    }
+    div#mce-error-response.response{
+        width: 305px;
+    }
+    div#mc_embed_signup div.mce_inline_error{
+        width: 305px;
+    }
+}
+div#mce-responses.clear{
+    margin: auto 0;
+}
+div#mc_embed_signup div.mce_inline_error{
+    text-align: left;
+    background-color: transparent;
+    color: #F00;
+    margin: auto;
+    margin-top: 10px;
+}
+div.response{
+    width: 472px;
+    padding-top: 10px;
+    text-align: left;
+}
+div#mce-success-response.response{
+    color: #79a342;
+    margin: auto;
+}
+div#mce-error-response.response{
+    color: #F00;
+    margin: auto;
+}
+div.mce_inline_error{
+    width: 472px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+/*COURSE FINDER COURSES WITH INFINITY SCROLL*/
+
+@media screen and (min-width: 1400px){
+    #courseFinderCourses .jscroll-inner {
+        width: 1300px;
+        margin: 0 auto;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+    #courseFinderCourses .jscroll-inner{
+        width: 1100px;
+        margin: 0 auto;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 1022px) and (max-width: 1200px) {
+    #courseFinderCourses .jscroll-inner{
+        width: 922px;
+        margin: 0 auto;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 766px) and (max-width: 1022px) {
+    #courseFinderCourses .jscroll-inner{
+        width: 666px;
+        margin: 0 auto;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 478px) and (max-width: 766px) {
+    #courseFinderCourses .jscroll-inner{
+        width: 428px;
+        margin: 0 auto;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 350px) and (max-width: 478px) {
+    #courseFinderCourses .jscroll-inner{
+        width: 320px;
+        margin: 0 auto;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    #courseFinderCourses .jscroll-inner{
+        width: 300px;
+        margin: 0 auto;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+}
+
+.jscroll-added {
+    width: 100%;
+}
+.jscroll-added .jscroll-loading{
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 1.5rem;
+    color: #666;
+    font-family: "Frutiger 57 Condensed",sans-serif;
+}
+
+.programme-speaker {
+    display: none;
+}
+
+.submit-btn{
+    background-color: #79a342;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+
+.submit-btn:hover {
+    cursor: pointer;
+}
+
+.submit-btn:focus {
+    outline-color: #79a342;
+}
+
+@media screen and (min-width: 1400px) {
+    .topic-item {
+        max-width: 360px;
+    }
+}
+
+.filtersDisabled {
+    pointer-events:none;
+    opacity:0.5;
+}
+
+.autocomplete {
+    /*the container must be positioned relative:*/
+    position: relative;
+    display: inline-block;
+}
+
+.autocomplete-items {
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    border-bottom: none;
+    border-top: none;
+    z-index: 99;
+    /*position the autocomplete items to be the same width as the container:*/
+    top: auto;
+    margin-top: 10px;
+    left: 0;
+    right: 0;
+    width: 40%;
+}
+.autocomplete-items div {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    border-bottom: 1px solid #d4d4d4;
+}
+.autocomplete-items div:hover {
+    /*when hovering an item:*/
+    background-color: #e9e9e9;
+}
+.autocomplete-active {
+    /*when navigating through the items using the arrow keys:*/
+    background-color: DodgerBlue !important;
+    color: #ffffff;
+}
+
+/*SINGLE INSTITUTE STYLE*/
+.single-institute {
+    width: 50%;
+    z-index: 1;
+}
+
+.single-institute-background {
+    background-color: #ffffff;
+    height: 300px;
+    text-align: center;
+    position: relative;
+}
+
+.single-institute img{
+    width: 128px;
+    height: 128px;
+    margin: 20px auto 5px;
+}
+
+.single-institute h3 {
+    font-family: "Frutiger 57 Condensed",sans-serif;
+    font-size: 30px;
+    color: #31417a;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+
+.single-institute a {
+    position: absolute;
+    bottom: 14px;
+    right: 25px;
+    text-decoration: none;
+}
+
+.single-institute p {
+    font-size: 16px;
+    font-family: "Helvetica Regular",sans-serif;
+    display: inline;
+    color: #79a342;
+    transition: .2s;
+    margin-right: 10px;
+}
+
+.single-institute i {
+    color: #b2b2b2;
+    font-size: 14px;
+    display: inline;
+}
+
+@media screen and (min-width: 1400px) {
+    .single-institute {
+        margin-left: 50px;
+    }
+}
+
+
+@media screen and (min-width: 766px) and (max-width: 1022px) {
+    .single-institute-background {
+        height: 310px;
+    }
+}
+
+@media screen and (min-width: 478px) and (max-width: 766px) {
+    .single-institute {
+        width: 100%;
+    }
+    .single-institute-background {
+        height: 310px;
+    }
+}
+
+@media screen and (min-width: 350px) and (max-width: 478px) {
+    .single-institute {
+        width: 100%;
+    }
+    .single-institute-background {
+        height: 310px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .single-institute {
+        width: 100%;
+    }
+    .single-institute-background {
+        height: 310px;
+    }
+}
+
+#pdf-download-modal,
+#newsletter-modal {
+    display: none;
+}
+@media screen and (min-width:1400px) {
+    .topic #topicInput {
+        display: inline-block;
+        width: 325px;
+        padding-left: 25px;
+        font-size: 18px;
+        vertical-align: top;
+        height: 40px;
+        border: 1px solid #888;
+        border-radius: 0;
+        background-color: #ffffff;
+    }
+}
+
+.loader {
+    /*border: 16px solid #f3f3f3; !* Light grey *!*/
+    /*border-top: 16px solid #31417a; !* Blue *!*/
+    /*border-radius: 50%;*/
+    text-align: center;
+    height: 25px;
+
+}
+
+.loader img {
+    width: 25px;
+    height: 25px;
+
+}
+/* Safari */
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.text.success.blue-contact-label {
+    text-align: center;
+}
+
+.text.error.blue-contact-label {
+    text-align: center;
+}
+
+.mandatory-fields {
+    color: black;
+    text-align: left;
+    font-family: "Helvetica Regular",sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.legend-contact-label p a, .policy-label a {
+    color: #79a342;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: "Helvetica Regular",sans-serif;
+}
+
+/*Active Navigation page*/
+
+.active-nav-page {
+    /*text-shadow: -0.25px -0.25px 0 #31417a, 0.25px 0.25px #31417a !important;*/
+    font-weight: bold;
+}

@@ -1,0 +1,9 @@
+User-agent: *
+
+Sitemap: https://www.frankfurt-school.de/executiveeducation-sitemap.xml
+Sitemap: https://www.frankfurt-school.de/sitemap.xml
+Sitemap: https://www.frankfurt-school.de/person-sitemap.xml
+
+Disallow: /author/*
+Disallow: /content/*
+Disallow: /en/content/*
